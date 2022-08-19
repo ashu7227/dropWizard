@@ -11,3 +11,7 @@ Health Check
 ---
 
 To see your applications health enter url `http://localhost:8081/healthcheck`
+
+netstat -ano | findstr :<PORT>
+  
+  taskkill /PID <PID> /F
